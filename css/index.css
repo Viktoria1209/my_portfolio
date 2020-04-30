@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Montserrat&display=swap');
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header {
+    background-color: #710004;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav>a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+@media (min-width: 980px) {
+    main .menu {
+        grid-template-columns: repeat(3, 1fr);  
+    }
+}
