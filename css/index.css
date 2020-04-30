@@ -101,13 +101,15 @@ nav>a:hover {
 @media (min-width: 600px) {
     .text-about {
         font-size: 18px;
+        line-height: 1.5;
+        padding-top: 50px;
     }
 
 }
 
 @media (min-width: 600px) {
     div>img {
-        width: 650px;
+        width: 700px;
         transition-duration: 1s;
     }
 }
