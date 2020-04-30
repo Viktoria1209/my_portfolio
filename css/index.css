@@ -54,6 +54,12 @@ aside p {
     padding: 20px;
 }
 
+nav>a:hover {
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 @media (min-width: 980px) {
     main .menu {
         grid-template-columns: repeat(3, 1fr);  
