@@ -10,7 +10,7 @@ h1, h2, p {
 }
 
 body {
-    max-width: 980px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -23,6 +23,7 @@ header {
 h1 {
     font-family: 'Cinzel', serif;
     color: white;
+    font-weight: lighter;
     text-align: center;
 }
 
@@ -30,6 +31,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav>a {
@@ -42,6 +44,7 @@ nav>a {
 
 aside h2 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
     color: #710004;
     text-align: center;
     padding-top: 20px;
@@ -54,16 +57,23 @@ aside p {
     padding: 20px;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter; 
+}
+
 nav>a:hover {
     color: black;
     transition: 0.5s;
     cursor: pointer;
 }
 
+
 @media (min-width: 600px) {
     h1 {
         font-size: 72px;
     }
+}
 
 @media (min-width: 600px) {
     nav>a {
@@ -72,24 +82,19 @@ nav>a:hover {
 
 }
 
-@media (min-width: 980px) {
-    main .menu {
-        grid-template-columns: repeat(3, 1fr);  
-    }
-}
-
 @media (min-width: 600px) {
     main .about-me {
         display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 33% 33% 33%;
     }
 }
 
 @media (min-width: 600px) {
     div>aside {
-        padding: 20px 20px 0px 0px;
+        padding: 20px 20px 0px 60px;
     }
+}
 
 @media (min-width: 600px) {
     #about-me {
@@ -109,7 +114,7 @@ nav>a:hover {
 
 @media (min-width: 600px) {
     div>img {
-        width: 700px;
+        width: 800px;
         transition-duration: 1s;
     }
 }
