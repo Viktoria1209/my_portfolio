@@ -74,6 +74,9 @@ nav>a:hover {
     cursor: pointer;
     text-decoration: none;
 }
+img {
+width: 100%;
+}
 .carousel-control-prev, .carousel-control-next {
     filter: brightness(30%);
 }
