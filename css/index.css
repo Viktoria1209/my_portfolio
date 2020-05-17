@@ -38,6 +38,23 @@ h2 {
     font-weight: lighter;
     text-align: center;
 }
+.countdown {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #710004;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#timer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 .portfolio-background {
     background-color: #710004;
     width: 100%;
