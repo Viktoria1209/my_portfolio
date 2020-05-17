@@ -156,7 +156,6 @@ form {
     text-align: center;
 }
 input[type=text] {
-    width: 600px;
     padding: 20px;
     margin: 5px;
     background-color: #DBDBDB;
@@ -164,7 +163,6 @@ input[type=text] {
     resize: vertical;
 }
 input[type=email] {
-    width: 600px;
     padding: 20px;
     margin: 5px;
     background-color: #DBDBDB;
@@ -278,5 +276,17 @@ footer p {
     #clients, #contact {
         font-size: 72px;
         padding: 36px;
+    }
+}
+
+@media (min-width: 600px) {
+    input[type=text] {
+        width: 600px;
+    }
+}
+
+@media (min-width: 600px) {
+    input[type=email] {
+        width: 600px;
     }
 }
