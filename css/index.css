@@ -54,6 +54,16 @@ h2 {
     text-align: center;
     padding: 20px;
 }
+#book {
+    font-family: 'Montserrat', sans-serif;
+    color: #710004;
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    background-color: #DBDBDB;
+    border: 1px solid grey;
+    text-align: center;
+}
 .portfolio-background {
     background-color: #710004;
     width: 100%;
