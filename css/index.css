@@ -75,9 +75,46 @@ nav>a:hover {
     text-decoration: none;
 }
 .container {
-width: 100%;
-object-fit: fill;
-display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a a b b"
+                         "a a c d"
+                         "e e f f"
+                         "g h f f";
+    grid-gap: 20px;
+}
+.container img {
+    display: block;
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px black);
+}
+.tenderness {
+    grid-area: a;
+}
+.asian {
+    grid-area: b;
+}
+.waiting {
+    grid-area: c;
+}
+.businessman {
+    grid-area: d;
+}
+.darkskin {
+    grid-area: e;
+}
+.cool {
+    grid-area:  f;
+}
+.badguy {
+    grid-area: g;
+}
+.vika {
+    grid-area: h;
+}
+.container img:hover {
+    filter: brightness(50%);
 }
 .carousel-control-prev, .carousel-control-next {
     filter: brightness(30%);
