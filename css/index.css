@@ -147,12 +147,12 @@ nav>a:hover {
     grid-area: h;
 }
 .tenderness:hover {
-  transform: scale(1);
+  transform: scale(1.5);
   z-index: 1;
   filter: drop-shadow(5px 50px 100px);
 }
 .asian:hover {
-  transform: scale(1);
+  transform: scale(1.5);
   z-index: 1;
   filter: drop-shadow(5px 50px 100px);
 }
@@ -167,12 +167,12 @@ nav>a:hover {
   filter: drop-shadow(5px 50px 100px);
 }
 .darkskin:hover {
-  transform: scale(1);
+  transform: scale(1.5);
   z-index: 1;
   filter: drop-shadow(5px 50px 100px);
 }
 .cool:hover {
-  transform: scale(1);
+  transform: scale(1.5);
   z-index: 1;
   filter: drop-shadow(5px 50px 100px);
 }
