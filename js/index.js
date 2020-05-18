@@ -18,3 +18,9 @@ var x = setInterval(function() {
     document.getElementById("timer").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+document.getElementById("myForm").addEventListener("submit", myFunction);
+
+function myFunction() {
+  alert("Thank you for contacting me. Have a nice day!");
+}
