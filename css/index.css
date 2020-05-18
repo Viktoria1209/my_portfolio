@@ -146,8 +146,45 @@ nav>a:hover {
 .vika {
     grid-area: h;
 }
-.container img:hover {
-    filter: brightness(50%);
+.tenderness:hover {
+  transform: scale(2);
+  z-index: 1;
+  filter: drop-shadow(5px 50px 100px);
+}
+.asian:hover {
+  transform: scale(2);
+  z-index: 1;
+  filter: drop-shadow(5px 50px 100px);
+}
+.waiting:hover {
+  transform: scale(2);
+  z-index: 1;
+  filter: drop-shadow(5px 50px 100px);
+}
+.businessman:hover {
+  transform: scale(2);
+  z-index: 1;
+  filter: drop-shadow(5px 50px 100px);
+}
+.darkskin:hover {
+  transform: scale(2);
+  z-index: 1;
+  filter: drop-shadow(5px 50px 100px);
+}
+.cool:hover {
+  transform: scale(2);
+  z-index: 1;
+  filter: drop-shadow(5px 50px 100px);
+}
+.badguy:hover {
+  transform: scale(2);
+  z-index: 1;
+  filter: drop-shadow(5px 50px 100px);
+}
+.vika:hover {
+  transform: scale(2);
+  z-index: 1;
+  filter: drop-shadow(5px 50px 100px);
 }
 .carousel-control-prev, .carousel-control-next {
     filter: brightness(30%);
